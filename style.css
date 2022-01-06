@@ -17,9 +17,10 @@ html{
 }
 
 .herosection{
-    height: 70vh;
+    height: 100%;
+    padding: 7rem 0;
     display:flex;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -28,6 +29,7 @@ html{
 .hero-right-part img{
     width: 100%;
 }
+
 .hero-left-part {
     width: 50%;
     font-size: 1.6rem;
@@ -84,9 +86,10 @@ html{
 }
 
 .mission-section{
-    height: 70vh;
+    height: 100%;
     width: 80%;
     margin: 8.2rem auto;
+    padding: 3rem 0;
 
 }
 
@@ -98,9 +101,7 @@ html{
 .mission-cards{
     display:flex;
     margin: 4.8rem 0;
-    justify-content: center;
-    
-   
+    justify-content: center; 
     
 }
 
@@ -113,11 +114,11 @@ html{
     flex-direction: column;
     justify-content:center;
     font-size: 1.3rem;
+    font-weight: 500;
     width: 350px;
     height: 400px;
     padding: 0rem 3rem;
     margin:0 1.6rem;
-    transition: 0.2s ease-in-out;
     border-radius: 1rem;
     box-shadow: -2px 5px 15px rgba(26, 26, 26, 0.144);
     color:rgb(32, 32, 32);
@@ -141,11 +142,13 @@ html{
 /* learn-expand */
 
 .learn-expand {
-    height: 60vh;
+    height: 100%;
     display: flex;
     width: 80%;
     margin: 0 auto;
+    padding: 3rem 0;
     align-items: center;
+    justify-content: space-between;
     font-size: 1.4rem;
    
     
@@ -169,17 +172,17 @@ html{
     text-align: left;
     
 }
-.learn-expand-rightside p{
-    width: 80%;
-}
+
+
 
 /* expand my network section */
 
 .expand-my-network{
-    height: 60vh;
+    height: 100%;
     display: flex;
     width: 80%;
     margin: 0 auto;
+    padding: 3rem 0;
     align-items: center;
     font-size: 1.4rem;
 
@@ -201,4 +204,127 @@ html{
 }
 .network-rightside{
     text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+
+
+footer{
+    text-align: center;
+    padding: 4rem 0 4rem 0;
+    font-size: 1.4rem;
+    background-color: #0B0D17;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+    font-size:3.6rem;
+    margin-bottom:1rem ;
+}
+footer span{
+    color: #e63946;
+    font-family: 'Lobster', cursive;
+}
+
+footer p{
+    color: rgb(173, 173, 173);
+}
+
+/* contact section */
+
+.contact-section{
+    margin: 4rem;
+}
+
+#getintouch{
+    text-align: center;
+    font-size: 6rem;
+    padding: 5rem 0;
+    font-weight: 700;
+}
+
+.contact-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content:space-between;
+
+    
+}
+
+
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-left h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+}
+.contact-right p{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size:4rem;
+    margin-bottom: 1.5rem;
+}
+.contact-left ul {
+    list-style-type: none;
+    font-size: 1.6rem;
+}
+
+.contact-left ul li{
+    line-height: 5rem;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+/* form */
+
+form input{
+    width: 50rem;
+    height: 5rem;
+    padding: 1rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px ;
+
+
+}
+
+#message{
+    
+    height: 20rem;
+ 
+}
+
+.form-btn{
+    width:15rem;
+    cursor: pointer;
+    background-color: #e63946;
+    color: white;
+    font-weight: 500;
+    border: 2px solid #e63946;
+}
+
+.form-btn:hover{
+    background: white;
+    color:#e63946;
+    border: 2px solid white;
 }
