@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color:rgb(46, 46, 46);
+    color:rgb(48, 48, 48);
 }
 
 html{
@@ -34,7 +34,7 @@ html{
     line-height: 7rem;
 }
 .colored-heading{
-    color: #e63946;
+    color: #48cae4;
 }
 .hero-content{
     margin-top: 2rem;
@@ -44,8 +44,6 @@ html{
 .style-border{
     border-left: 5px solid #e63946;
     
-
-   
     
 }
 .style-border h1{
@@ -62,4 +60,70 @@ html{
     list-style: none;
     color:white;
     border-radius: 1rem;
+    border: 2px solid #e63946;
 }
+.hero-button:hover{
+    background-color: #e6394700;
+    border: 2px solid #e63946;
+    color:black;
+}
+
+/* Mission-Section */
+
+.mission-section h1{
+    text-align: center;
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+
+.mission-section{
+    height: 70vh;
+    width: 80%;
+    margin: 8.2rem auto;
+
+}
+
+.mission-section h2{
+    margin: 0.7rem 0;
+    font-size: 2rem;
+}
+
+.mission-cards{
+    display:flex;
+    margin: 4.8rem 0;
+    justify-content: center;
+    
+   
+    
+}
+
+.mission-cards img{
+    width: 50%;
+}
+
+.mission-cards div{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    font-size: 1.3rem;
+    width: 300px;
+    height: 350px;
+    padding: 2rem 5rem;
+    margin:0 1.6rem;
+    transition: 0.2s ease-in-out;
+    border-radius: 1rem;
+    box-shadow: -2px 5px 15px rgba(26, 26, 26, 0.144);
+}
+
+.mission{
+    background-color: #fed2bd23;
+}
+.vision{
+    background-color: #a1ff0a1e ;
+}
+
+.goals{
+    background-color:#c8dbff25 ;
+}
+
+
