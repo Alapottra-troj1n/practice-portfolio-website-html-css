@@ -35,6 +35,11 @@ html{
     font-size: 1.6rem;
 }
 
+.hero-border-and-heading{
+    display: flex;
+    align-items: center;
+}
+
 .hero-left-part h1{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -49,13 +54,19 @@ html{
     width:70%;
     
 }
+
 .style-border{
-    border-left: 5px solid #e63946;
-    
+    margin-top: 0.7rem;
+    height: 11rem;
+    border: 3px solid #e63946;
+    border-radius: 2rem;
+
     
 }
-.style-border h1{
-    margin-left: 1rem;;
+
+
+.hero-left-part h1{
+    margin-left: 2rem;;
 
 }
 
@@ -142,14 +153,22 @@ html{
 /* learn-expand */
 
 .learn-expand {
-    height: 100%;
+    height: 100%;  
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 9rem 15rem;
+
+}
+
+.container{
     display: flex;
     width: 80%;
     margin: 0 auto;
     padding: 3rem 0;
+    padding:10rem 0;
     align-items: center;
     font-size: 1.4rem;    
-
 }
 
 .learn-expand h1{
@@ -175,16 +194,11 @@ html{
 /* expand my network section */
 
 .expand-my-network{
-    height: 100%;
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    padding: 3rem 0;
-    align-items: center;
-    font-size: 1.4rem;
-
-    background-size: 15%;
-
+  height: 100%;
+  background-image: url(./images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: 160rem 45rem;
 }
 
 .network-rightside img{
